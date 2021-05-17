@@ -1,4 +1,3 @@
-import { v4 as uuidv4 } from 'uuid'
 import { NextApiRequest, NextApiResponse } from 'next'
 import { mongo } from '../../database/connection'
 import { mountServicePayload } from './_utils'
